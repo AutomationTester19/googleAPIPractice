@@ -24,4 +24,16 @@ public class generateBodyPayload {
 				"";
 		return body;
 	}
+	
+	public static String updatePayload(String address,String place_Id){
+		
+		String updatedBody = "{\n" + 
+				"\"place_id\":\""+place_Id+"\",\n" + 
+				"\"address\":\""+address+"\",\n" + 
+				"\"key\":\"qaclick123\"\n" + 
+				"}\n" + 
+				"";
+		
+		return updatedBody;
+	}
 }

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6717" started-at="2020-04-18T18:26:57Z" finished-at="2020-04-18T18:27:04Z">
+  <suite name="Default suite" duration-ms="2399" started-at="2020-04-19T06:56:20Z" finished-at="2020-04-19T06:56:23Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6717" started-at="2020-04-18T18:26:57Z" finished-at="2020-04-18T18:27:04Z">
-      <class name="com.googleAPI.testOne.put_googleAPI_testDemo">
-        <test-method status="PASS" signature="validatePlaceID()[pri:0, instance:com.googleAPI.testOne.put_googleAPI_testDemo@c038203]" name="validatePlaceID" duration-ms="6659" started-at="2020-04-18T18:26:57Z" finished-at="2020-04-18T18:27:04Z">
+    <test name="Default test" duration-ms="2399" started-at="2020-04-19T06:56:20Z" finished-at="2020-04-19T06:56:23Z">
+      <class name="com.googleAPI.practiceDemo.EndTOEnd_Validations">
+        <test-method status="PASS" signature="verifyUpdatedValuesUsingAllMethods()[pri:0, instance:com.googleAPI.practiceDemo.EndTOEnd_Validations@c038203]" name="verifyUpdatedValuesUsingAllMethods" duration-ms="2383" started-at="2020-04-19T06:56:20Z" finished-at="2020-04-19T06:56:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validatePlaceID -->
-      </class> <!-- com.googleAPI.testOne.put_googleAPI_testDemo -->
+        </test-method> <!-- verifyUpdatedValuesUsingAllMethods -->
+      </class> <!-- com.googleAPI.practiceDemo.EndTOEnd_Validations -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
