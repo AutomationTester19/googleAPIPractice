@@ -25,7 +25,7 @@ public class EndTOEnd_Validations {
 		JsonPath js = new JsonPath(response);
 		String place_id = js.getString("place_id");
 		System.out.println("Place ID --------> " +place_id);
-		
+	//get Call	
 		String getResponse = given().log().all()
 				.queryParam("key", "qaclick123").queryParam("place_id", place_id).
 				header("Content-Type","application/json").
@@ -39,6 +39,7 @@ public class EndTOEnd_Validations {
 		
 		String newAddress = "LingamPally Hyderabad 500019";
 		
+		//put Call
 				given().log().all().
 				queryParam("key", "qaclick123").queryParam("place_id", place_id).
 				header("Content-Type","application/json").
